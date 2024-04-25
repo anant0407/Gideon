@@ -6,6 +6,10 @@ def valorant():
             'Phoenix', 'Sage', 'Sova', 'Viper', 'Cypher', 'Reyna', 'Killjoy', 'Breach']
     return random.choice(valo)
 
+def guns():
+    guns = ['Classic', 'Ghost', 'Frenzy', 'Shorty', 'Sheriff', 'Stinger', 'Spectre', 'Bucky', 'Judge', 'Guardian', 
+    'Bulldog', 'Phantom', 'Vandal', 'Marshal', 'Operator', 'Ares', 'Odin']
+    return random.choice(guns)
 
 def dice():
     return random.randint(1, 6)
